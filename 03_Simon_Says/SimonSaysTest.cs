@@ -49,12 +49,6 @@ namespace _03_Simon_Says
 
         // Hint: "Default values"
 
-        [TestMethod]
-        public void ShouldRepeatANumberOfTimes()
-        {
-            Simon simon = new Simon();
-            Assert.AreEqual("hello hello hello", simon.Repeat("hello", 3));
-        }
 
         [TestMethod]
         public void ShouldRepeatANumberOfTimes()
